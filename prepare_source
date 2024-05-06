@@ -1,0 +1,3 @@
+git_src --branch debian/2.9.2-1 https://salsa.debian.org/sssd-team/sssd.git
+cp 32b72c7c.diff "$dir/src/debian/patches/"
+echo 32b72c7c.diff >> "$dir/src/debian/patches/series"
