@@ -1,1 +1,2 @@
 git_src --branch debian/2.9.5-3 https://salsa.debian.org/sssd-team/sssd.git
+version_suffix=gardenlinux0
