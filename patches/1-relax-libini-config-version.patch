@@ -1,0 +1,11 @@
+--- a/debian/control
++++ b/debian/control
+@@ -29,7 +29,7 @@
+  libfido2-dev,
+  libgdm-dev [!s390x !hurd-any],
+  libglib2.0-dev,
+- libini-config-dev (>> 0.7.0~),
++ libini-config-dev (>= 0.6.2~),
+  libjansson-dev,
+  libjose-dev,
+  libkeyutils-dev [linux-any],
