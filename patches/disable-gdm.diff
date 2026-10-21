@@ -1,0 +1,8 @@
+--- a/debian/rules
++++ b/debian/rules
+@@ -38,6 +38,7 @@ override_dh_auto_configure:
+        --with-passkey \
+        --with-subid \
+        --with-sssd-user=root \
++       --without-gdm \
+        --with-sudo
